@@ -51,7 +51,7 @@ client.on("interactionCreate", async (Interaction) => {
       .setTitle("ヘルプ")
       .setImage()
       .setDescription(
-        "ネタ路線のBOT予定だったのがなんか本気で作りたくなったやつです。\nこれからも開発していきます。\nアイディアやバグなどがありましたらPIENNU#0721までお知らせください。"
+        "ヘルプを書いてね！"
       )
       .setTimestamp();
     await Interaction.reply({ embeds: [exampleEmbed] });
@@ -62,7 +62,7 @@ client.on("interactionCreate", async (Interaction) => {
       .setColor(0xfef8bf)
       .setTitle("招待リンク")
       .setDescription(
-        "下のリンクを踏むと導入できます。\nhttps://discord.com/api/oauth2/authorize?client_id=1060901864473903134&permissions=2199022731255&scope=bot%20applications.commands"
+        "招待リンクを書いてね！"
       )
       .setTimestamp();
     await Interaction.reply({ embeds: [exampleEmbed] });
